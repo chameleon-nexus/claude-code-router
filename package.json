@@ -1,7 +1,7 @@
 {
-  "name": "@musistudio/claude-code-router",
+  "name": "@chameleon-nexus-tech/claude-code-router",
   "version": "1.0.49",
-  "description": "Use Claude Code without an Anthropics account and route it to another LLM provider",
+  "description": "Use Claude Code without an Anthropics account and route it to another LLM provider (Chameleon Nexus Fork)",
   "bin": {
     "ccr": "./dist/cli.js"
   },
@@ -16,11 +16,11 @@
     "llm",
     "anthropic"
   ],
-  "author": "musistudio",
+  "author": "chameleon-nexus",
   "license": "MIT",
   "dependencies": {
     "@fastify/static": "^8.2.0",
-    "@musistudio/llms": "^1.0.32",
+    "@chameleon-nexus-tech/llms": "^1.0.32",
     "dotenv": "^16.4.7",
     "find-process": "^2.0.0",
     "json5": "^2.2.3",
